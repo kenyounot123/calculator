@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0px;
+}
+.title {
+  text-align: center;
+}
+
+.rows {
+  display:flex;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+}
+#equal {
+  width: 100px;
+}
