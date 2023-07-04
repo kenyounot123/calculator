@@ -3,19 +3,23 @@ body {
   min-width: 100vh;
   margin: 0px;
 }
-.title {
-  text-align: center;
-}
-
 .rows {
   display:flex;
 }
-
+.outer-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .outer-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 200px;
+  border: 1px solid black;
+  padding: 20px 0px;
+  width: 250px;
 }
 
 button {
@@ -24,4 +28,15 @@ button {
 }
 #equal {
   width: 100px;
+}
+.display {
+  height: 50px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-size: 40px;
+  border: 1px solid black;
 }
